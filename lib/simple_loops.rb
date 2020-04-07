@@ -18,7 +18,7 @@ def output_array(array)
   counter = 0
   while array[counter] do
     puts array[counter]
-    conter += 1
+    counter += 1
   end
 end
 
@@ -26,7 +26,7 @@ def return_string_array(array)
   counter = 0
   while array[counter] do
     array[counter] = array[counter].to_s
-    conter += 1
+    counter += 1
   end
   return array
 end
